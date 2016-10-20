@@ -15,5 +15,7 @@ public class RecActivity extends AppCompatActivity {
         String str = it.getStringExtra(Intent.EXTRA_TEXT);
         TextView tv = (TextView) findViewById(R.id.textView);
         tv.setText(str);
+
+
     }
 }
